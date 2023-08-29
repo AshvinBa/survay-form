@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
     <title>Document</title>
 </head>
 <body style="background-color: rgb(89, 224, 179);">
@@ -12,15 +13,15 @@
         <form style="background-color: aliceblue;">
             <p style="padding: 20px;">Let us know how we can improve freeCodeCamp</p>
             <ul style="padding: 5px;">
-                Name: <input type="text">                
+                Name: <input type="text" class="na">                
             </ul>
             <ul style="padding: 5px;">
-                Email: <input type="email">
+                Email: <input type="email"class="em">
             </ul>
             <ul style="padding: 5px;">
-                Age: <input type="number">
+                Age: <input type="number"class="ag">
             </ul>
-            <p style="left: 100px;">Which option best describe your current role ?  
+            <p style="left: 100px;" class="std"> Which option best describe your current role ?  
             <select name="student" id="sd">
                 <p style="padding: 10px;">
                 <option value="std">Student</option>
@@ -31,9 +32,9 @@
             </p>
             
             </select>    
-            <p>How likely is that you would recommend
+            <p style="margin-bottom: -40px;">How likely is that you would recommend
             freeCodeCamp tp a friend? 
-            <p style="padding: 10px;">
+            <p style="padding: 10px;" >
             <ul>
                 <label for="sec">
                     <input type="radio" value="sec a" name ="s1" id="sec">Definitely</label>
@@ -49,13 +50,14 @@
                     <input type="radio" value="sec a" name ="s1" id="sec">Not sure
                 </label>    
             </ul>
+
         </p>
         </p>
-            </p>
-            <p>
+        <p class="gap"></p>
+            <p class="camp">
                 what do you like most in FCC:
                 <select name="sel" id="se">
-                    <p style="padding: 10px;">
+                    <p>
                     <option value="ove">Oversees</option>
                     <option value="law">Communication Law</option>
                     <option value="reg">Regulation</option>
@@ -82,11 +84,11 @@
                 </ul>
             </p>
             <p>
-        <p>
-            <button type="button">Submit</button>
+        <p class="but1">
+            <button type="button" class="bu">Submit</button>
         </p>
         <p style="padding-bottom: 10px;">
-            <input type="reset" value="Reset">
+            <input  class="ret" type="reset" value="Reset">
         </p>
         </p>
         </form>
